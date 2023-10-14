@@ -4,7 +4,7 @@
 
 [//]: # (auto_cargo_toml_to_md start)
 
-**CLI binary executable, one way sync from dropbox to external disc**  
+**TUI binary executable, one way sync from dropbox to external disc**  
 ***version: 2023.820.1613 date: 2023-08-20 author: [bestia.dev](https://bestia.dev) repository: [Github](https://github.com/bestia-dev/dropbox_backup_to_external_disk_tui/)***  
 
 [//]: # (auto_cargo_toml_to_md end)
@@ -25,12 +25,12 @@
 [![Rust](https://github.com/bestia-dev/dropbox_backup_to_external_disk_tui/workflows/RustAction/badge.svg)](https://github.com/bestia-dev/dropbox_backup_to_external_disk_tui/)
 ![Hits](https://bestia.dev/webpage_hit_counter/get_svg_image/584868797.svg)
 
-Hashtags: #rustlang #tutorial #dropbox #cli #tui  
+Hashtags: #rustlang #tutorial #dropbox #tui  
 My projects on Github are more like a tutorial than a finished product: [bestia-dev tutorials](https://github.com/bestia-dev/tutorials_rust_wasm).
 
-## CLI
+## TUI
 
-This compiles into a CLI binary executable. All the user interface is inside this project.  
+This compiles into a [TUI](https://en.wikipedia.org/wiki/Text-based_user_interface) binary executable. All the user interface is inside this project.  
 The main dependency is to the library project `dropbox_backup_to_external_disk_lib` that contains all the program logic.  I separated this projects to show how to use the same library from different binary projects. It is difficult to separate this two layers afterwards. They should be separated from the start.  
 Different user-interfaces need different workflows and the common library must allow this. Modern computers and phones are all multi-core. Even javascript has multi-thread capabilities with web-workers. It is recommended to create multi-threaded applications. Most of the calls to the library will be done in a separate thread to have the possibility of communication between the 2 layers (UI and logic). For example for progress bars and similar long running tasks.  
 
