@@ -374,7 +374,7 @@ export DBX_KEY_1={master_key}
 export DBX_KEY_2={token_enc}
 "#
         ),
-        Err(err) => println!("echo {}", err),
+        Err(err) => println!("printf {}\n", err),
     }
 }
 
