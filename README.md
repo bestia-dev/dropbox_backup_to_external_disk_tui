@@ -9,8 +9,8 @@
 
 [//]: # (auto_cargo_toml_to_md end)
 
-![status](https://img.shields.io/badge/maintained-green) 
-![status](https://img.shields.io/badge/work_in_progress-yellow) 
+![pre-alpha](https://img.shields.io/badge/pre_alpha-red) 
+![work-in-progress](https://img.shields.io/badge/work_in_progress-yellow) 
 
 [//]: # (auto_lines_of_code start)
 [![Lines in Rust code](https://img.shields.io/badge/Lines_in_Rust-1549-green.svg)](https://github.com/bestia-dev/dropbox_backup_to_external_disk_tui/)
