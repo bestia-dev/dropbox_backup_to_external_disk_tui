@@ -5,7 +5,7 @@
 
 [//]: # (auto_cargo_toml_to_md start)
 
-**TUI binary executable, one way sync from dropbox to external disc**  
+**TUI binary executable, one way sync from Dropbox to external disc**  
 ***version: 2023.820.1613 date: 2023-08-20 author: [bestia.dev](https://bestia.dev) repository: [Github](https://github.com/bestia-dev/dropbox_backup_to_external_disk_tui/)***  
 
 [//]: # (auto_cargo_toml_to_md end)
