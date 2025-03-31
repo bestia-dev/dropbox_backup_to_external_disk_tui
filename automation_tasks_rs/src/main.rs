@@ -78,7 +78,7 @@ fn print_help() {
     This task needs PAT (personal access token from github) in the env variable:{RESET}
 {GREEN} export GITHUB_TOKEN=paste_token_here{RESET}
 
-    {YELLOW}© 2023 bestia.dev  MIT License github.com/bestia-dev/cargo-auto{RESET}
+    {YELLOW}© 2025 bestia.dev  MIT License github.com/bestia-dev/cargo-auto{RESET}
 "#
     );
     print_examples_cmd();
